@@ -1,0 +1,27 @@
+Location,Starting X,Starting Y,Ending X,Ending Y,Order
+Reverse Mountain,0.45,0.45,0.55,0.55,3
+Red Line,0.44,0,0.55,1,2
+North Blue,0,0,0.44,0.42,0
+South Blue,0.55,0.6,1,1,0
+East Blue,0.55,0,1,0.42,0
+West Blue,0,0.6,0.42,1,0
+Calm Belt,0,0.42,1,0.6,0
+Ilisia Kingdom,0.11,0.62,0.17,0.75,1
+Grand Line,0,0.45,1,0.57,1
+Gecko Island,0.72,0.16,0.79,0.22,1
+Wano,0.31,0.45,0.34,0.52,2
+Zou,0.25,0.55,0.26,0.57,2
+Flevance Kingdom, 0.12, 0.17, 0.165, 0.23,1
+Sabaody Archipelago, 0.95, 0.49, 0.97, 0.51,2
+Alabasta, 0.61, 0.45, 0.65, 0.49,2
+Whole Cake Island, 0.17, 0.45, 0.23, 0.53,2
+Impel Down,0.88, 0.57, 0.9, 0.59,1
+Marineford,0.9, 0.51, 0.917, 0.535,2,
+Twin Cape,0.535, 0.523, 0.548, 0.535,2
+Cactus Island,0.548,0.494,0.567,0.512,2
+Mary Geoise, 0.0012,0.503,0.017, 0.52,2
+Fish-Man Island, 0.0135,0.52, 0.0357, 0.5357,2
+G-5,0.0295, 0.5455,0.036,0.56,2
+New Marineford,0.016,0.465,0.0387,0.4815,2
+Mystoria Island, 0.03386, 0.484,0.056, 0.501,2
+Risky Red Island,0.050, 0.503, 0.074, 0.517,2
