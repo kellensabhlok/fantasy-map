@@ -68,14 +68,16 @@ function MapComponent({source, sendDataToParent}:MapProps){
              onScroll={handleScroll}>
 
             <img src={source} alt={"map"} className={"map"} style={{height:mapDimensions[1]*zoom}}
-
+                 draggable={false}
                  onClick={(e)=>handleClick(e)}/>
             <div className={"zoom-buttons-container"}>
                 <button className={"zoom-button-class"} onClick={zoomIn}>Zoom In</button>
                 <button className={"zoom-button-class"} onClick={zoomOut}>Zoom Out</button>
                 <button className={"zoom-button-class"} onClick={reset}>Reset</button>
             </div>
+
         </div>
+
     )
 }
 

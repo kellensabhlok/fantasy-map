@@ -17,6 +17,9 @@
 .sidebar-container {
     width:40%;
     border: thin black;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: scroll;
 }
 
 .map {

@@ -4,16 +4,23 @@ import MapComponent from "../Components/MapComponent";
 import Sidebar from "../Components/Sidebar";
 import MapLocation from "../DataObjects/MapLocation";
 import "./MapPage.css"
-import BackgroundImage from "../resources/old-vintage-compass-on-ancient-map.jpg"
-function MapPage(){
-    const baseURL = "https://onepiece.fandom.com/wiki/"
-    const [map, setMap] = useState<string>(OnePieceMap);
+
+type MapPageProps = {
+    map:string
+    csv_file:string
+    base_url:string
+}
+
+
+function MapPage({map, csv_file, base_url}:MapPageProps){
+    const baseURL = base_url
+
     // const [display, setDisplay] = useState<string>("Waiting For Click")
     const [display, setDisplay] = useState<string>(baseURL)
     const [locations, setLocations] = useState<MapLocation[]>([]);
     const iframe = useRef(null)
     useEffect(() => {
-        fetch( './one_piece_map_locations.csv' )
+        fetch( csv_file)
             .then( response => response.text() )
             .then( responseText => {
                 // console.log(responseText)
